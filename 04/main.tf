@@ -13,7 +13,7 @@ provider "aws" {
 
 resource "aws_instance" "t2micro" {
   ami           = "ami-0e35ddab05955cf57"
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
 
   tags = {
     Name = "MyTestServer"
