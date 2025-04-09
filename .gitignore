@@ -1,1 +1,4 @@
 */.terraform/
+*/terraform.tfplan
+*/terraform.tfvars
+*/terraform.tfstate*
